@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    background-color: rgb(65, 65, 196);
+    align-items: center;
+}
+
+
+
+.nav-left a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    font-size: 18px;
+}
+
+.nav-right {
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(116, 102, 235);
+    border: 1px solid rgb(46, 0, 66);
+    border-radius: 25px;
+    
+}
+
+.nav-right a{
+  text-decoration: none;
+  color: white;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+    align-items: center;
+    background-color: rgb(65, 65, 196);
+}
+
+.header-left p{
+    font-size: 80px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.header-left a{
+    color: white;
+    background-color:rgb(116, 102, 235) ;
+    border: 1px solid rgb(46, 0, 66);
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+
+.header-right img{
+    width: 500px;
+    height: 450px;
+    
+    transition: 3s ease-in-out 1s;
+}
+
+.header-right img:hover{
+width: 600px;
+height: 500px;
+}
+
+
+.players{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:30px 100px;
+    justify-content: center;
+}
+
+.player{
+    width: 300px;
+    box-shadow: 10px 10px 10px 20px lightgray;
+    padding: 25px;
+    margin: 25px;
+}
+
+.player img{
+    width: 300px;
+    height: auto;
+   
+}
+
+.player  p{
+margin:20px 0px;
+font-size: 14px;
+width: 300px;
+}
+
+.bottom{
+    display: flex;
+    padding: 20px 100px;
+    margin: 100px 0;
+}
+
+.bottom-left{
+padding: 50px;
+
+}
+
+.bottom-left h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.bottom-left p{
+    font-size:  16px; 
+    font-weight: 300;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.bottom-left a{
+    color: white;
+    background-color:rgb(116, 102, 235) ;
+    padding: 10px;
+    border-radius: 25px;
+    text-decoration: none;
+
+}
+
+
+.botttom-right img{
+    width: 500px;
+    height: 400px;
+}
+ 
+
+.logo img{
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.social-link{
+display: flex;
+justify-content: center;
+}
+
+.social-link img{
+width: 30px;
+padding: 10px ;
+}
+
+.Copyright{
+   text-align: center;
+   padding: 20px 0;
+}
+
